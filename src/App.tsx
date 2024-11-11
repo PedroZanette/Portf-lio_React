@@ -1,35 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [buttonText, setButtonText] = useState('');
+  const [buttonIndex, setButtonIndex] = useState(0);
+
+  // Animação de digitação para o botão "Entrar"
+  useEffect(() => {
+    const buttonIntervalId = setInterval(() => {
+      if (buttonIndex < 'Entrar'.length) {
+        setButtonText((prevText) => prevText + 'Entrar'[buttonIndex]);
+        setButtonIndex(buttonIndex + 1);
+      } else {
+        clearInterval(buttonIntervalId);
+      }
+    }, 100);
+
+    return () => clearInterval(buttonIntervalId);
+  }, [buttonIndex]);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="welcome-container">
+      <h1 className="welcome-title">Bem-vindo ao Meu Portfólio</h1>
+      <p className="welcome-text">Explore meus projetos, experiências e habilidades na área de desenvolvimento!</p>
+      <Link to="/home">
+        <button className="welcome-button">{buttonText}</button>
+      </Link>
+    </div>
+  );
 }
 
-export default App
+export default App;

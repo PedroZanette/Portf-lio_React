@@ -1,0 +1,54 @@
+/* Navbar */
+nav {
+    position: fixed;
+    top: 1em; /* Aumentei um pouco para dar um espaçamento superior */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Ajustei para uma largura mais apropriada */
+    z-index: 1000;
+    backdrop-filter: blur(8px); /* Melhor efeito de desfoque para fundo */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo escura e transparente */
+    border-radius: 25px; /* Borda arredondada para um visual mais suave */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra suave para dar profundidade */
+  }
+  
+  /* Links dentro do navbar */
+  nav a {
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif; /* Usar uma fonte mais legível */
+    padding: 1em 2em; /* Ajuste para não ficar muito espaçado */
+    margin: 0 10px; /* Espaçamento entre os itens */
+    transition: 0.3s ease all;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px; /* Borda suave nos links */
+  }
+  
+  /* Efeito de hover nos links */
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efeito de fundo claro ao passar o mouse */
+    color: #fff;
+    transform: scale(1.05); /* Leve aumento no link */
+  }
+  
+  /* Para dispositivos menores, deixar o navbar mais compacto */
+  @media (max-width: 768px) {
+    nav {
+      width: 80%; /* Aumenta a largura para dispositivos móveis */
+      top: 1.5em; /* Um pouco mais de espaço em telas menores */
+    }
+  
+    nav a {
+      font-size: 1em; /* Reduz o tamanho da fonte em telas menores */
+      padding: 0.8em 1.5em; /* Ajuste o espaçamento */
+    }
+  }
+  

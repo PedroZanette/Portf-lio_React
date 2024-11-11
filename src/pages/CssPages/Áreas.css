@@ -1,0 +1,134 @@
+/* Áreas.css */
+
+/* Estilo básico da página */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que as bordas e o padding não causem overflow */
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    min-height: 90vh;
+    padding-top: 8em; /* Espaço para o navbar fixo */
+    overflow: hidden; /* Garante que não haverá overflow */
+    padding-bottom: 0;
+  }
+  
+  .titulo {
+    font-size: 3rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    padding-top: 20px; /* Ajuste baseado na altura do Navbar */
+  }
+  
+  /* Estilo dos cards */
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px; /* Aumentei a largura */
+    height: 380px; /* Aumentei a altura */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card .background {
+    background-color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Faz o fundo ficar atrás do conteúdo */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+  
+  /* Conteúdo dentro do card */
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-family: 'Arial', sans-serif;
+    color: #4e4e4e;
+    margin-bottom: 10px;
+  }
+  
+  .copy {
+    font-size: 1rem;
+    color: #7a7a7a;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35%;
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5em;
+    z-index: 1000;
+    backdrop-filter: blur(0.6em);
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    font-family: monospace;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
