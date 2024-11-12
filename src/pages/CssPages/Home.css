@@ -239,7 +239,6 @@
   }
   /* Botão bonito portfólios passados */
   .text-3{
-  
   position: relative;
   top: 7vw;
   display: flex; 
@@ -282,10 +281,14 @@
   }
 
   .content-wrapper {
-    margin-top: 5em; /* Ajuste conforme a altura do seu Navbar */
+    margin-top: calc(4em + 20px); /* Ajuste conforme a altura do seu Navbar */
   }
 
   .page-content-home {
     padding-top: 2em;    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
