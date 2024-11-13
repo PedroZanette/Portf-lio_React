@@ -230,7 +230,7 @@
   width: 80%;
   position: relative;
   left: 1rem;
-  font-size: 1.3em;
+  font-size: 1.5em;
   background: rgb(223, 225, 235);
   color: black;
   border-radius: 50px;
@@ -241,6 +241,7 @@
 .text-2 {
   padding: 8rem;
   height: 100vh;
+  margin-bottom: 12rem;
 }
 
 .iframe-2 {

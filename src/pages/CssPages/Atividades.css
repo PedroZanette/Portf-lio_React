@@ -1,6 +1,6 @@
 /* Natureza Page Styles */
 
-.naturezaPage {
+.activityPage {
   padding: 2rem;
   background-color: #f0f0f0;
   min-height: 100vh;
@@ -18,40 +18,103 @@
 
 .bookGallery {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
+  width: 100%; 
+  height: 100%;
+  justify-content: center; 
+  gap: 2rem; 
+  padding: 2rem;
 }
 
 .book {
   position: relative;
-  width: 20em;
-  height: 22em;
+  left: 10em;
   border-radius: 10px;
+  width: 22em;
+  height: 22em;
   background-color: whitesmoke;
-  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  overflow: hidden;
+  color: #000;
 }
-
+.book ,.book-2 , .book-3 {
+  border-radius: 10px;
+  width: 22em;
+  height: 22em;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000;
+  text-align: center;
+}
+.book {
+  position: relative;
+  left: 0vh;
+}
 .cover {
-  position: absolute;
   top: 0;
+  font-size: "1.7em";
+  position: absolute;
+  background-color: lightgray;
   width: 100%;
   height: 100%;
-  background-color: lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 10px;
-  transition: transform 0.5s;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.book:hover .cover {
-  transform: rotateY(-80deg);
+.book:hover .cover , .book-2:hover .cover, .book-3:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
+}
+
+.pbook{
+  font-size: 1.7em;
 }
 
 .sideNav {
@@ -117,12 +180,11 @@
 }
 
 a {
-  color: inherit; /* Herda a cor do elemento pai */
   text-decoration: none; /* Remove o sublinhado */
   font-size: 2em;
 }
 
 a:hover {
-  color: #333; /* Cor personalizada ao passar o mouse */
+  color: rgb(75, 75, 255);
   text-decoration: underline; /* Opcional: adiciona sublinhado ao hover */
 }

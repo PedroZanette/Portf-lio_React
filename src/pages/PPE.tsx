@@ -1,4 +1,4 @@
-import './CssPages/Home.css';
+import './CssPages/Atividades.css';
 import Navbar from '../components/Navbar';
 import Certificado from '../img/Certificado_Estrutura.pdf'
 
@@ -14,7 +14,7 @@ const PPE = () => {
         </h1>
       </div>
 
-      <div className="atividade-h">
+      <div className="activity">
         <p>
           <a
             style={{ textDecoration: 'none', fontSize: "2em", padding: "2em" }}
