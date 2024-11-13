@@ -1,5 +1,6 @@
 import './CssPages/Home.css';
 import Navbar from '../components/Navbar';
+import Certificado from '../img/Certificado_Estrutura.pdf'
 
 const PPE = () => {
   return (
@@ -45,7 +46,7 @@ const PPE = () => {
               left: '13em',
               border: 'none',
             }}
-            src="../img/Certificado_Estrutura.pdf"
+            src={Certificado}
             title="Certificado Estrutura de Dados"
             allowFullScreen
           />

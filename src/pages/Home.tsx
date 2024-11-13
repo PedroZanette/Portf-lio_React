@@ -1,6 +1,7 @@
 import { useCallback } from 'react';
 import './CssPages/Home.css';
 import Navbar from '../components/Navbar';
+import Foto from '../img/pedroZanette.png'
 
 const Home = () => {
     const openFirstPortfolio = useCallback(() => {
@@ -38,7 +39,7 @@ const Home = () => {
                         </p>
                     </div>
                     <img
-                        src="../../src/img/pedroZanette.png"
+                        src ={Foto}
                         alt="Pedro Henrique Nunes Zanette"
                         style={{ width: '40vw', height: '90vh', marginLeft: '20px' }}
                     />
