@@ -258,7 +258,7 @@ const Natureza = () => {
                 </p>
                 <iframe
                   loading="lazy"
-                  src="https://www.canva.com/design/DAGJ5hICGUU/vzviK8jX-1tB5awX9dseZw/view?embed"
+                  src="https://www.canva.com/design/DAGPzQwYv-Y/hh0VzhD6lEC1QiedVnbp3g/view?embed"
                   allowFullScreen
                 ></iframe>
                 <p className="activityDetails">Competências e habilidades: C3 com as habilidades H15 e H18.</p>
@@ -273,19 +273,39 @@ const Natureza = () => {
               <div className="activity">
                 <p>
                   <a href="https://classroom.google.com/c/NjI4MjE4MDIwMzc1/a/NjgyMzY4OTE1MTIy/details">
-                    NATUREZA - AULA 12/06 - Introdução ao Eletromagnetismo
+                  NATUREZA - 28/08 - EMISSÕES RADIOATIVAS
                   </a>
                 </p>
                 <iframe
                   loading="lazy"
-                  src="https://padlet.com/embed/ym4ljxaq4jw41iht"
+                  src="https://www.canva.com/design/DAGPJfyWTww/bQMpCKWfbUe4Xb2dktXUIg/view?embed"
                   allowFullScreen
                 ></iframe>
-                <p className="activityDetails">Competências e habilidades: C6 com as habilidade H36.</p>
+                <p className="activityDetails">Competências e habilidades: C5 com as habilidade H24, H25, H26, H27 e H28.</p>
                 <p className="activityDescription">
-                  Objetivo: Criar uma linha do tempo e cartaz.
+                  Objetivo: Montar uma apresentação sobre o ENRIQUECIMENTO DO URÂNIO.
                   <br />
-                  Assunto: Eletromagnetismo.
+                  Assunto: Radioatividade Emissões.
+                  <br />
+                  Opinião: Uma atividade interessante, ainda que longa, feita em dupla.
+                </p>
+              </div>
+              <div className="activity">
+                <p>
+                  <a href="https://classroom.google.com/c/NjI4MjE4MDIwMzc1/a/Njg2NDQyNDMzOTU5/details">
+                  NATUREZA - 30/10 - REVISÃO ECOLOGIA
+                  </a>
+                </p>
+                <iframe
+                  loading="lazy"
+                  src="https://www.canva.com/design/DAGVDoJits0/g7JaNRBp5vHuZU1e3RTPaw/view?embed"
+                  allowFullScreen
+                ></iframe>
+                <p className="activityDetails">Competências e habilidades: C5 com as habilidade H24, H25, H26, H27 e H28.</p>
+                <p className="activityDescription">
+                  Objetivo: Criar um DICIONÁRIO ILUSTRADO com os principais conceitos de Ecologia.
+                  <br />
+                  Assunto: ECOLOGIA.
                   <br />
                   Opinião: Uma atividade interessante, ainda que longa, feita em dupla.
                 </p>
