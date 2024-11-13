@@ -81,13 +81,16 @@
 }
 
 .activity {
-  margin-bottom: 10em;
-  width: 90%;
-  padding: 2rem;
+  margin: 4em auto 10em auto; /* Centraliza horizontalmente e ajusta a margem superior e inferior */
+  width: 95%; /* Aumenta a largura */
+  max-width: 1200px; /* Limite máximo de largura para telas grandes */
+  padding: 3rem; /* Aumenta o padding para mais espaço interno */
   border-radius: 30px;
   background-color: #e0e0e0;
   box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
 }
+
+
 
 .activity iframe {
   width: 100%;
@@ -113,16 +116,13 @@
   font-size: 1.6em;
 }
 
-.atividade-h{
-  margin-bottom: 10em;
-  width: 90vw;
-  height: fit-content;
-  border-radius: 30px;
-  background: #e0e0e0;
-  box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
-  position: relative;
-  left: 10vh;
-  top: 4em;
- 
+a {
+  color: inherit; /* Herda a cor do elemento pai */
+  text-decoration: none; /* Remove o sublinhado */
+  font-size: 2em;
+}
+
+a:hover {
+  color: #333; /* Cor personalizada ao passar o mouse */
+  text-decoration: underline; /* Opcional: adiciona sublinhado ao hover */
 }
