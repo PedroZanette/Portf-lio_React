@@ -19,8 +19,6 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-        
-            
             <div className="page-content-home">
                 <div className="text" style={{ display: 'flex', alignItems: 'center' }}>
                     <div >
