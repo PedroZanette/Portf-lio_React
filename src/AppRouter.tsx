@@ -3,7 +3,7 @@ import App from './App';
 import Home from './pages/Home';
 import Areas from './pages/Áreas';
 import Tecnico from './pages/Tecnico';
-// import PPE from './pages/PPE';
+import PPE from './pages/PPE';
 import Natureza from './pages/Áreas/Natureza';
 // import Matematica from './pages/Áreas/Matematica';
 // import Humanas from './pages/Áreas/Humanas';
@@ -21,7 +21,7 @@ const AppRouter = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/areas" element={<Areas />} />
         <Route path="/tecnico" element={<Tecnico />} />
-        {/* <Route path="/ppe" element={<PPE />} /> */}
+        <Route path="/ppe" element={<PPE />} />
         <Route path="/natureza" element={<Natureza />} />
         {/* <Route path="/matematica" element={<Matematica />} />
         <Route path="/humanas" element={<Humanas />} />

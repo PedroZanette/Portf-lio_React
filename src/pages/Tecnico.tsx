@@ -34,12 +34,14 @@ function card(title: string, copy: string, button: string, path: string) {
 
 const Tecnico = () => {
   return (
-    <div className="container">
+    <div>
       <Navbar />
-      <h1 className='titulo'>Áreas do Técnico</h1>
-      <main className="page-content">
-        {cards.map((cardItem) => card(cardItem.title, cardItem.copy, cardItem.button, cardItem.path))}
-      </main>
+      <div className="container">
+        <h1 className='titulo'>Áreas do Técnico</h1>
+        <main className="page-content">
+          {cards.map((cardItem) => card(cardItem.title, cardItem.copy, cardItem.button, cardItem.path))}
+        </main>
+      </div>
     </div>
   );
 };

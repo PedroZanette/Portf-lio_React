@@ -16,8 +16,10 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="content-wrapper">
+        <div>
             <Navbar />
+        
+            
             <div className="page-content-home">
                 <div className="text" style={{ display: 'flex', alignItems: 'center' }}>
                     <div >
@@ -36,7 +38,7 @@ const Home = () => {
                         </p>
                     </div>
                     <img
-                        src="../../src/assets/pedroZanette.png"
+                        src="../../src/img/pedroZanette.png"
                         alt="Pedro Henrique Nunes Zanette"
                         style={{ width: '40vw', height: '90vh', marginLeft: '20px' }}
                     />

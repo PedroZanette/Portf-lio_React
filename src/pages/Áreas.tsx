@@ -33,13 +33,17 @@ function card(title: string, copy: string, button: string, path: string) {
 
 const Areas = () => {
   return (
-    <div className="page-content">
-    <div className="container">
+    <div>
       <Navbar />
-      <h1 className="titulo">Áreas do conhecimento</h1>
-      <main className="page-content">
-        {cards.map((cardItem) => card(cardItem.title, cardItem.copy, cardItem.button, cardItem.path))}
-      </main>
+      <div className="page-content">
+        
+        <div className="container">
+
+          <h1 className="titulo">Áreas do conhecimento</h1>
+          <main className="page-content">
+            {cards.map((cardItem) => card(cardItem.title, cardItem.copy, cardItem.button, cardItem.path))}
+          </main>
+        </div>
       </div>
     </div>
   );
