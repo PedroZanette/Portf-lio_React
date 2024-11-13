@@ -6,6 +6,7 @@ import Linguagens_2 from '../../img/Linguagens2.png'
 import Linguagens_3 from '../../img/linguagens3.png'
 import Manutencao from '../../img/image.png'
 import Redacao from '../../img/Redações enviadas.pdf'
+import Redacao3 from '../../img/Redações enviadas-3.pdf'
 
 const Linguagens = () => {
     const [selectedTrimester, setSelectedTrimester] = useState(1);
@@ -135,7 +136,7 @@ const Linguagens = () => {
                                     Opinião: Não gosto muito de redação, mas fiquei satisfeito com a nota. Gostaria de entender melhor a correção da competência 5.
                                 </p>
                             </div>
-                            {/* Adicione aqui mais atividades do 2° trimestre */}
+                           
                         </div>
                     )}
                     {selectedTrimester === 3 && (
@@ -144,50 +145,69 @@ const Linguagens = () => {
                             <div className="activity">
                                 <p>
                                     <a href="https://www.canva.com/design/DAGGa_KoHec/IDah-dB5seUjvYxiEDJP2Q/view?utm_content=DAGGa_KoHec&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-                                        HUMANAS - 27/05 - Urbanismo e cultura no começo do século XX
+                                        Linguagens | 18/10 | Aplicação do Redação Online
                                     </a>
                                 </p>
                                 <iframe
                                     loading="lazy"
-                                    src="https://www.canva.com/design/DAGGa_KoHec/x2osYcWeFaWP6tQsM2foFg/view?embed"
+                                    src={Redacao3}
                                     allowFullScreen
                                 ></iframe>
                                 <p className="activityDetails">
-                                    Competência: C4 - Compreender a importância do trabalho na constituição das sociedades e na formação dos sujeitos.
+                                    Competência: N/A
                                     <br />
-                                    Habilidades: H22, H24
+                                    Habilidades: N/A
                                 </p>
                                 <p className="activityDescription">
-                                    Objetivo: Pesquisar fotos do banco de dados Brasiliana Fotográfica para criar uma história com elas.
+                                    Objetivo: Realizar a 3ª aplicação da Redação Online.
                                     <br />
-                                    Opinião: Escolher fotos antigas foi desafiador, mas interessante. Consegui criar uma história sobre o Hospital Oswaldo Cruz.
+                                    Opinião: Foi uma ótima oportunidade de me aprimorar na redação pois o ENEM já estava perto e 
+                                    essa aplicação fez com que eu conseguisse revisar como fazer uma boa redação.
                                 </p>
                             </div>
                             <div className="activity">
                                 <p>
-                                    <a href="https://www.canva.com/design/DAGHFFtSmvI/GexqMFdKnY-c4BsqzlX3Pg/view?utm_content=DAGHFFtSmvI&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-                                        HUMANAS - 10/06 - Apresentações Cinema e totalitarismo
+                                    <a href="https://www.canva.com/design/DAGBfL1ge_g/f_aYCVi1ZuZ5QPFuHn10bw/view?embed">
+                                        Currículo atualizado, em português e em inglês.
                                     </a>
                                 </p>
                                 <iframe
                                     loading="lazy"
-                                    src="https://www.canva.com/design/DAGHFFtSmvI/9ZdCwZgRDHuNtkGBYjRozA/view?embed"
+                                    src="https://www.canva.com/design/DAGBfL1ge_g/f_aYCVi1ZuZ5QPFuHn10bw/view?embed"
                                     allowFullScreen
                                 ></iframe>
                                 <p className="activityDetails">
-                                    Competência: C4 - Compreender a importância do trabalho na constituição das sociedades e na formação dos sujeitos.
+                                    Competência: N/A
                                     <br />
-                                    Competência: C6 - Avaliar a sociedade como um sistema complexo sob aspectos políticos, econômicos, sociais e geoambientais.
-                                    <br />
-                                    Habilidades: H10, H39
+                                    Habilidades: N/A
                                 </p>
                                 <p className="activityDescription">
-                                    Objetivo: Analisar um filme sobre totalitarismo e apresentar as descobertas.
+                                    Objetivo: Currículo atualizado.
                                     <br />
-                                    Opinião: A atividade foi interessante, pois escolhemos o filme "Duna" que possui elementos de totalitarismo, mas de forma implícita.
+                                    Opinião: Fazer um currículo é muito bom principalmente para utilizar profissionalmente,
+                                    por isso acho importante esse tipo de atividade pois faz com que os alunos tenham que pesquisar e
+                                    fazer algo que será benéfico para o futuro.
                                 </p>
                             </div>
-                            {/* Adicione aqui mais atividades do 2° trimestre */}
+                            <div className="activity">
+                                <p>
+                                    <a href="https://youtu.be/FUKHYRqQ8ww">
+                                        Vídeo Daily.
+                                    </a>
+                                </p>
+                                <p>⬆️⬆️⬆️ Acesse o link no título ⬆️⬆️⬆️</p>
+                                <p className="activityDetails">
+                                    Competência: N/A
+                                    <br />
+                                    Habilidades: N/A
+                                </p>
+                                <p className="activityDescription">
+                                    Objetivo: Fazer um vídeo em formato daily.
+                                    <br />
+                                    Opinião: Ter feito esse tipo de vídeo foi divertido e interessante, pois pude analizar
+                                    minha rotina e até pude melhorar ela.
+                                </p>
+                            </div>
                         </div>
                     )}
                 </div>

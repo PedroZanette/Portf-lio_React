@@ -55,9 +55,12 @@ const Natureza = () => {
                 <p className="activityDescription">
                   Objetivo: Criar um meme sobre evolucionismo.
                   <br />
-                  Assunto: Evolucionismo e principais cientistas.
+                  Assunto: Na aula em questão foi estudadoas ideias evolucionistas, os principais cientistas que trabalharam nessa
+                  área e alguns conceitos dentro do evolucionismo.
                   <br />
-                  Opinião: Gostei da atividade, foi divertida, mas exigiu criatividade.
+                  Opnião: Essa atividade achei legal e difícil de fazer pois a idéia da atividade em si é muito legal e divertida,
+                  porem o problema é minha falta de criatividade para essa atividade, mas quando pensei em algo achei que ficou
+                  bom.
                 </p>
               </div>
               <div className="activity">
@@ -75,9 +78,11 @@ const Natureza = () => {
                 <p className="activityDescription">
                   Objetivo: Experimentar circuitos em série e paralelo.
                   <br />
-                  Assunto: Circuitos elétricos.
+                  Assunto: Essa atividade foi uma prática sobre circuitos sendo necessário completar o anexo na atividade.
                   <br />
-                  Opinião: A prática foi interessante e divertida, mas teve seus desafios.
+                  Opnião: Por ter sido uma atividade prática, acabou ficando difícil pois enquanto meu grupo tentava montar o
+                  circuito dois colegas quase quimaram o dedo, pelo menos foi engraçado. Em geral a atividade foi bacana de se
+                  realizar e espero que outras iguais essas ainda apareçam ao longo do ano.
                 </p>
               </div>
               <div className="activity">
@@ -93,11 +98,14 @@ const Natureza = () => {
                 ></iframe>
                 <p className="activityDetails">Competências e habilidades: C1 H3 H4 H5</p>
                 <p className="activityDescription">
-                  Objetivo: Revisar temas orgânicos.
+                  Objetivo: Criar uma apresentação com os tópicos exigidos
                   <br />
-                  Assunto: Tetravalência, Combustíveis fósseis e mais.
+                  Assunto: Tetravalência,Combustíveis fósseis, Hidrocarbonetos,Ligação Sigma e Pi, Classificação Carbono e
+                  Representações Molecular, Estrutural e em Linha
                   <br />
-                  Opinião: Relembrei conceitos importantes, mas foi uma atividade longa.
+                  Opnião: Gosto quando revisa assuntos já estudados pois acabo me lembrando de coisas importantes, nessa atividade
+                  achei ela meio longa pois são muitos tópicos mas sempre é bom pesquisar e relembrar aquilo que é necessário para
+                  o ano.
                 </p>
               </div>
               <div className="activity">
@@ -113,12 +121,12 @@ const Natureza = () => {
                 ></iframe>
                 <p className="activityDetails">Competências e habilidades: C1 H3 H4 H5</p>
                 <p className="activityDescription">
-                  Objetivo: Classificar cadeias carbônicas.
+                  Objetivo: Responder o docs classificando corretamente as cadeias carbônicas
                   <br />
-                  Assunto: Classificação de cadeias.
+                  Assunto: Classificação de cadeias carbônicas
                   <br />
-                  Opinião: Atividade interessante para revisar conteúdos.
-                </p>
+                  Opnião: Como dito na atividade acima eu gosto de revisar conteúdos então essa atividade foi legal pois vimos
+                  novamente um assunto dos anos passados e além de eu achar interessante essa ligação das cadeias carbônicas.                </p>
               </div>
             </div>
           )}
@@ -138,11 +146,12 @@ const Natureza = () => {
                 ></iframe>
                 <p className="activityDetails">Competências e habilidades: C3 com as habilidades H15 e H18.</p>
                 <p className="activityDescription">
-                  Objetivo: Criar uma revista eletrônica sobre relações ecológicas.
+                  Objetivo: Criar revista eletrônica sobre as relações
                   <br />
-                  Assunto: Relações Ecológicas.
+                  Assunto: Relações Ecológicas
                   <br />
-                  Opinião: Uma atividade complexa, mas enriquecedora.
+                  Opnião: Foi uma atividade muito legal e longa pois criar uma revista é difícil mas através dessa atividade pude compreender
+                  melhor o conteúdo abordado em sala.
                 </p>
               </div>
               <div className="activity">
@@ -158,11 +167,17 @@ const Natureza = () => {
                 ></iframe>
                 <p className="activityDetails">Competências e habilidades: C6 com as habilidade H35.</p>
                 <p className="activityDescription">
-                  Objetivo: Criar um mapa mental sobre componentes de circuitos.
+                  Objetivo: Mapa mental sobre componentes dos circuitos elétricos
                   <br />
                   Assunto: Componentes dos circuitos.
                   <br />
-                  Opinião: Apesar dos desafios, o mapa mental foi uma boa maneira de organizar as informações.
+                  Opnião: Infelizmente por conta de certos colegas essa atividade e aula por si só se tornaram complexas, pois
+                  acabamos
+                  por chatear a professora durante a aula e recebemos como presente uma prova supresa, que eu não consegui a média
+                  mas pelo caderno
+                  eu fui salvo. O mapa mental foi uma ideia legal pois consegui dividir certinho os componentes dos circuitos e
+                  assim
+                  entender de maneira separada cada um deles.
                 </p>
               </div>
               <div className="activity">
@@ -182,7 +197,8 @@ const Natureza = () => {
                   <br />
                   Assunto: Polímeros e plásticos.
                   <br />
-                  Opinião: A atividade foi criativa e estimulante.
+                  Opnião: A proposta foi bem divertida de se fazer pois nos estimulou a fazer algo criativo para chamar a atenção de nós
+                  jovens, já que somos os maiores consumidores de plástico do SESI.
                 </p>
               </div>
               <div className="activity">
@@ -202,7 +218,9 @@ const Natureza = () => {
                   <br />
                   Assunto: Eletromagnetismo.
                   <br />
-                  Opinião: Uma atividade interessante, ainda que longa, feita em dupla.
+                  Opnião: Nessa atividade eu achei meio longa para terminar em sala sozinho por isso por ser em dupla facilitou, pois realizar
+                  uma linha do tempo e um cartaz na mesma aula foi bem difícil, mas gostei do conteúdo e de realizar as atividades
+                  em particular gosto muito do Nikola Tesla.
                 </p>
               </div>
             </div>
@@ -213,7 +231,7 @@ const Natureza = () => {
               <div className="activity">
                 <p>
                   <a href="https://classroom.google.com/c/NjI4MjE4MDIwMzc1/a/Njg1NDQ1ODU0ODM0/details">
-                   NATUREZA - 11/09 - DESEQUILÍBRIOS AMBIENTAIS - PREPARAÇÃO
+                    NATUREZA - 11/09 - DESEQUILÍBRIOS AMBIENTAIS - PREPARAÇÃO
                   </a>
                 </p>
                 <iframe
@@ -227,7 +245,8 @@ const Natureza = () => {
                   <br />
                   Assunto: DESEQUILÍBRIOS AMBIENTAIS.
                   <br />
-                  Opinião: Uma atividade complexa, mas enriquecedora.
+                  Opinião: Uma atividade bem legal pois tive que pesquisar sobre questões modelo ENEM, me ajudando principalmente
+                  para minha preparação para o próprio ENEM.
                 </p>
               </div>
               <div className="activity">
@@ -247,33 +266,15 @@ const Natureza = () => {
                   <br />
                   Assunto: Tipos de Energia.
                   <br />
-                  Opinião: Apesar dos desafios, o mapa mental foi uma boa maneira de organizar as informações.
-                </p>
-              </div>
-              <div className="activity">
-                <p>
-                  <a href="https://www.canva.com/design/DAGJ5hICGUU/OTuBfhcMyEqurdjmTlV1Mw/view?utm_content=DAGJ5hICGUU&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-                    NATUREZA - 03/07 - POLÍMEROS, USO DE PLÁSTICOS
-                  </a>
-                </p>
-                <iframe
-                  loading="lazy"
-                  src="https://www.canva.com/design/DAGPzQwYv-Y/hh0VzhD6lEC1QiedVnbp3g/view?embed"
-                  allowFullScreen
-                ></iframe>
-                <p className="activityDetails">Competências e habilidades: C3 com as habilidades H15 e H18.</p>
-                <p className="activityDescription">
-                  Objetivo: Criar cartaz sobre uso de plástico.
-                  <br />
-                  Assunto: Polímeros e plásticos.
-                  <br />
-                  Opinião: A atividade foi criativa e estimulante.
+                  Opinião: Gostei muito dessa atividade pois tivemos que analizar dados que a professora nos proporcionou e
+                  realizar um plano de energia em uma região do Brasil, com isso pesquisando também dados sobre o preço, impactos,
+                  desvantagens, vantagens e muitos outros sobre as energias que escolhemos sendo elas: Energia Eólica e Nuclear.
                 </p>
               </div>
               <div className="activity">
                 <p>
                   <a href="https://classroom.google.com/c/NjI4MjE4MDIwMzc1/a/NjgyMzY4OTE1MTIy/details">
-                  NATUREZA - 28/08 - EMISSÕES RADIOATIVAS
+                    NATUREZA - 28/08 - EMISSÕES RADIOATIVAS
                   </a>
                 </p>
                 <iframe
@@ -287,13 +288,15 @@ const Natureza = () => {
                   <br />
                   Assunto: Radioatividade Emissões.
                   <br />
-                  Opinião: Uma atividade interessante, ainda que longa, feita em dupla.
+                  Opinião: A atividade foi interessante e permitiu um bom entendimento sobre o tema. Contudo longa esse 
+                  trabalho em trio ajudou a aprofundar o conhecimento sobre o enriquecimento do urânio e as emissões radioativas
+                  como por exemplo: Como funciona, particulas (alfa, beta e gama), etapas do processo, entre outros.
                 </p>
               </div>
               <div className="activity">
                 <p>
                   <a href="https://classroom.google.com/c/NjI4MjE4MDIwMzc1/a/Njg2NDQyNDMzOTU5/details">
-                  NATUREZA - 30/10 - REVISÃO ECOLOGIA
+                    NATUREZA - 30/10 - REVISÃO ECOLOGIA
                   </a>
                 </p>
                 <iframe
@@ -307,7 +310,8 @@ const Natureza = () => {
                   <br />
                   Assunto: ECOLOGIA.
                   <br />
-                  Opinião: Uma atividade interessante, ainda que longa, feita em dupla.
+                  Opinião: A atividade foi interessante e ajudou a consolidar os principais conceitos de Ecologia. 
+                  Apesar de ser um pouco longa, o trabalho em grupo facilitou a compreensão dos temas.
                 </p>
               </div>
             </div>

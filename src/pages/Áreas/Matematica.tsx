@@ -133,31 +133,29 @@ const Matematica = () => {
               <h2>3° Trimestre</h2>
               <div className="activity">
                 <p>
-                  <a href="https://classroom.google.com/c/NjI4MjE4MDIwMzc1/a/Njk3MDkyNjAxMDE3/details">
-                    MATEMÁTICA - AV2 - BANCO IMOBILIÁRIO
+                  <a href="https://www.canva.com/design/DAGVzoK3UMs/NmHtcu-BrAFCtjbgnLwgpA/view?embed">
+                   MATEMÁTICA - 07/11 - Geometria com sólidos de Platão
                   </a>
                 </p>
                 <iframe
                   loading="lazy"
-                  src="https://www.canva.com/design/DAGKMSe26pA/JAqMsmD2XyIG4YIRcSdFyw/view?embed"
+                  src="https://www.canva.com/design/DAGVzoK3UMs/NmHtcu-BrAFCtjbgnLwgpA/view?embed"
                   allowFullScreen
                 ></iframe>
                 <p className="activityDetails">
-                  Competência: C5 - Aplicar o pensamento probabilístico para quantificar e fazer previsões em situações aplicadas
-                  a diferentes áreas do conhecimento e da vida cotidiana.
+                  Competência: Não informado.
                   <br />
-                  Habilidades: H30, H31 e H32.
+                  Habilidades: Não informado.
                 </p>
                 <p className="activityDescription">
-                  Objetivo: Criar um jogo no formato de Banco Imobiliário com tema sendo a cidade de Florianópolis.
+                  Objetivo: Desenvolver e aprimorar os conhecimentos referentes aos Poliedros de Platão.
                   <br />
-                  Assunto: Princípio fundamental da contagem.
+                  Assunto: Geometria Espacial e Poliedros de Platão.
                   <br />
-                  Opinião: Foi uma atividade muito legal de ser desenvolvida pois usar matemática, Florianópolis e Banco Imobiliário para
-                  uma atividade acabou sendo interessante. Além disso, colocamos o "Frango do G" para representar os Ingleses.
+                  Opinião: Essa atividade foi bem legal e gostosa pois fazer os poliedros de Platão com palitos de churrasco e
+                  jujuba foi muito diferente, além de aprender com prática pude comer jujubas no final.
                 </p>
               </div>
-              {/* Adicione aqui mais atividades do 3° trimestre */}
             </div>
           )}
         </div>

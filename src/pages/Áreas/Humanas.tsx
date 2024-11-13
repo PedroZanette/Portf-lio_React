@@ -164,48 +164,53 @@ const Humanas = () => {
                             <h2>3° Trimestre</h2>
                             <div className="activity">
                                 <p>
-                                    <a href="https://www.canva.com/design/DAGGa_KoHec/IDah-dB5seUjvYxiEDJP2Q/view?utm_content=DAGGa_KoHec&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-                                        HUMANAS - 27/05 - Urbanismo e cultura no começo do século XX.
+                                    <a href="https://www.canva.com/design/DAGSO2g0m0M/Vb09golgF0SgfwCRyD0VDg/view?embed">
+                                        HUMANAS - 30/09 - Guerra Fria
                                     </a>
                                 </p>
                                 <iframe
                                     loading="lazy"
-                                    src="https://www.canva.com/design/DAGGa_KoHec/x2osYcWeFaWP6tQsM2foFg/view?embed"
+                                    src="https://www.canva.com/design/DAGSO2g0m0M/Vb09golgF0SgfwCRyD0VDg/view?embed"
                                     allowFullScreen
                                 ></iframe>
                                 <p className="activityDetails">
-                                    Competência: C4 - Compreender a importância do trabalho na constituição das sociedades e na formação dos sujeitos.
+                                    Competência:  C6 e C5 
                                     <br />
-                                    Habilidades: H22, H24
+                                    Habilidades: H28, H30, H32, H39 e H40
                                 </p>
                                 <p className="activityDescription">
-                                    Objetivo: Pesquisar fotos do banco de dados Brasiliana Fotográfica para criar uma história com elas.
+                                    Objetivo: Realizar uma pesquisa e construir uma apresentação no Canva capaz de explicar a complexidade de conflitos, disputas, guerras, acordos e sentimentos relacionados à Guerra Fria.
                                     <br />
-                                    Opinião: Escolher fotos antigas foi desafiador, mas interessante. Consegui criar uma história sobre o Hospital Oswaldo Cruz.
+                                    Opinião: Uma atividade bem legal pois gosto do tema Guerra Fria e acho muito interessante como ela 
+                                    moldou o nosso presente, além de que pesquisar sobre os conflitos da Guerra foi bom para 
+                                    que eu pudesse me aprofundar nesse tema.
                                 </p>
                             </div>
                             <div className="activity">
                                 <p>
-                                    <a href="https://www.canva.com/design/DAGHFFtSmvI/GexqMFdKnY-c4BsqzlX3Pg/view?utm_content=DAGHFFtSmvI&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-                                        HUMANAS - 10/06 - Apresentações Cinema e totalitarismo
+                                    <a href="https://docs.google.com/document/d/e/2PACX-1vSZUORiJjfuaiRppLZhsN9edFdAmJHiYiNs6Duvh77oxa6GtBgZHVR7iOEiECmxFAn4n42nNQWF0GnC/pub?embedded=true">
+                                     HUMANAS - 21/10 - As tensões políticas do suicídio de Vargas até o fim do governo Jango.
                                     </a>
                                 </p>
                                 <iframe
                                     loading="lazy"
-                                    src="https://www.canva.com/design/DAGHFFtSmvI/9ZdCwZgRDHuNtkGBYjRozA/view?embed"
+                                    src="https://docs.google.com/document/d/e/2PACX-1vSZUORiJjfuaiRppLZhsN9edFdAmJHiYiNs6Duvh77oxa6GtBgZHVR7iOEiECmxFAn4n42nNQWF0GnC/pub?embedded=true"
                                     allowFullScreen
                                 ></iframe>
                                 <p className="activityDetails">
-                                    Competência: C4 - Compreender a importância do trabalho na constituição das sociedades e na formação dos sujeitos.
+                                    Competência: C2 H10 C6 H39
                                     <br />
                                     Competência: C6 - Avaliar a sociedade como um sistema complexo sob aspectos políticos, econômicos, sociais e geoambientais.
                                     <br />
-                                    Habilidades: H10, H39
+                                    Habilidades: H10, H34, H35 e H39
                                 </p>
                                 <p className="activityDescription">
-                                    Objetivo: Analisar um filme sobre totalitarismo e apresentar as descobertas.
+                                    Objetivo: Fazer a leitura e discussão sobre uma reportagem da BBC sobre o Massacre de Manguinhos e escolha um dos cientistas perseguidos e escrever um dossiê sobre sua vida e carreira.
                                     <br />
-                                    Opinião: A atividade foi interessante, pois escolhemos o filme "Duna" que possui elementos de totalitarismo, mas de forma implícita.
+                                    Opinião: Foi uma atividade muito legal pois particulamente gosto de política, então
+                                    ver sobre as antigas presidencias acabou sendo mais marcante, em especial esse caso do Massacre de Manguinhos 
+                                    já que a partir dai podemos ter uma visão de como era a política na época e pesquisando sobre Moacyr Vaz de Andrade
+                                    foi ainda mais complementar quando olhando sobre como era a vida de um "opositor".
                                 </p>
                             </div>
                         </div>
