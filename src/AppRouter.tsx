@@ -14,7 +14,7 @@ import Modelagem from './pages/Técnico/Modelagem';
 import Implantação from './pages/Técnico/Implantação';
 import ProgramacaoApp from './pages/Técnico/ProgramacaoApp';
 import TesteDeSistemas from './pages/Técnico/TesteDeSistemas';
-import Contato from './pages/contato'
+import Contato from './pages/Contato.tsx';
 
 const AppRouter = () => {
   return (
