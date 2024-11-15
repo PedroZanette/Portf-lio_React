@@ -34,6 +34,7 @@ function App() {
       <Link to="/home">
         <button className="welcome-button">Entrar</button>
       </Link>
+      
     </div>
   );
 }

@@ -14,6 +14,7 @@ import Modelagem from './pages/Técnico/Modelagem';
 import Implantação from './pages/Técnico/Implantação';
 import ProgramacaoApp from './pages/Técnico/ProgramacaoApp';
 import TesteDeSistemas from './pages/Técnico/TesteDeSistemas';
+import Contato from './pages/contato'
 
 const AppRouter = () => {
   return (
@@ -34,6 +35,7 @@ const AppRouter = () => {
         <Route path="/implantacao-manutencao-sistemas" element={<Implantação />} />
         <Route path="/programacao-aplicativos" element={<ProgramacaoApp />} />
         <Route path="/teste-de-sistemas" element={<TesteDeSistemas />} />
+        <Route path="/contato" element={<Contato />} />
       </Routes>
     </BrowserRouter>
   );

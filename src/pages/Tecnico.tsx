@@ -22,6 +22,7 @@ function card(title: string, copy: string, button: string, path: string) {
   return (
     <div className="card">
       <div className="content">
+      <div className="background"></div>
         <h2 className="title">{title}</h2>
         <p className="copy">{copy}</p>
         <Link to={path}>

@@ -1,0 +1,126 @@
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem; /* Espaço entre os botões */
+    height: 60vh; /* Centraliza verticalmente */
+    width: 100%; /* Garante que ocupe toda a largura */
+    position: relative;
+}
+
+.body-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-position: bottom;
+    background-size: cover;
+    font-family: 'inicio', sans-serif;
+    color: #000000;
+    text-align: center;
+    padding-top: 10vh;
+}
+/* Botão do GitHub */
+.Btn {
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.svgContainer {
+    width: 6.5rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.BG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    z-index: -1;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+/* Botão do LinkedIn */
+.Btn-2 {
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.svgContainer-2 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.BG-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0077b5;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+/* Botão do Instagram */
+.Btn-3 {
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.svgContainer-3 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;    
+}
+
+.BG-3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.Btn:hover, .Btn-2:hover, .Btn-3:hover {
+    background-color: rgba(62, 62, 62, 0.2);
+    border-radius: 10px;
+}

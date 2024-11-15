@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './CssPages/Áreas.css';
 import Navbar from '../components/Navbar.tsx';
+import sala from '../img/sala.jpg'
 
 interface Card {
   title: string;
@@ -19,7 +20,7 @@ const cards: Card[] = [
 function card(title: string, copy: string, button: string, path: string) {
   return (
     <div className="card">
-      <div className="background" style={{ backgroundImage: `url('path-to-your-background-image.jpg')` }}></div> {/* Altere o caminho da imagem */}
+      <div className="background"></div>
       <div className="content">
         <h2 className="title">{title}</h2>
         <p className="copy">{copy}</p>
