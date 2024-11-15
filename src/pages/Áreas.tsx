@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import './CssPages/Áreas.css';
 import Navbar from '../components/Navbar.tsx';
-import sala from '../img/sala.jpg'
 
 interface Card {
   title: string;
