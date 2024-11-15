@@ -57,12 +57,13 @@ const Home = () => {
                 <div className="text-3">
                     <h1 className="h1-p">Portfólios do 1° e 2° ano</h1>
                     <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center', gap: '2rem', padding: '2rem' }}>
-                        <button className="buton-port2" onClick={openSecondPortfolio}>
-                            Portfólio 2° ano
-                        </button>
                         <button className="buton-port1" onClick={openFirstPortfolio}>
                             Portfólio 1° ano
                         </button>
+                        <button className="buton-port2" onClick={openSecondPortfolio}>
+                            Portfólio 2° ano
+                        </button>
+                        
                     </div>
                 </div>
 
