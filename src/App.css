@@ -1,36 +1,105 @@
+
 .welcome-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f5f5f5;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Matrix Binaria background */
+.binary-matrix {
+  position: absolute;
+  top: 0;
+  left: 2%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* Cada coluna */
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #00ff00;
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0.6;
+  animation: fall 10s linear forwards; 
+}
+
+/* Cada numero binario na coluna */
+.column span {
+  animation: fade 4s linear infinite;
+}
+
+/* Animação de queda */
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh);
   }
-  
-  .welcome-title {
-    font-size: 2.5rem;
-    color: #333;
+  100% {
+    transform: translateY(100vh); 
   }
-  
-  .welcome-text {
-    font-size: 1.2rem;
-    margin: 1rem 0 2rem;
-    color: #666;
+}
+
+/* Efeito Fade para cada caracter */
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
   }
-  
-  .welcome-button {
-    font-size: 1.2rem;
-    padding: 0.8rem 2rem;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  50% {
+    opacity: 1;
   }
-  
-  .welcome-button:hover {
-    background-color: #45a049;
-  }
-  
+}
+
+/* Estilo do botão e texto */
+.welcome-title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #00ff00;
+  font-weight: bold;
+  z-index: 2;
+  text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.8);
+}
+
+.welcome-text {
+  font-size: 1.5rem;
+  margin: 1rem 0 2.5rem;
+  color: #00ff00;
+  max-width: 600px;
+  line-height: 1.6;
+  z-index: 2;
+  text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.8);
+}
+
+.welcome-button {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  background: #333;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  border-radius: 50px;
+  box-shadow: 0px 10px 15px rgba(0, 255, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  z-index: 2;
+}
+
+.welcome-button:hover {
+  background: #00ff00;
+  color: #000;
+  transform: scale(1.1);
+}

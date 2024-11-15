@@ -33,7 +33,7 @@ const AppRouter = () => {
         <Route path="/modelagem-de-sistemas" element={<Modelagem />} />
         <Route path="/implantacao-manutencao-sistemas" element={<Implantação />} />
         <Route path="/programacao-aplicativos" element={<ProgramacaoApp />} />
-        <Route path="/TesteDeSistemas" element={<TesteDeSistemas />} />
+        <Route path="/teste-de-sistemas" element={<TesteDeSistemas />} />
       </Routes>
     </BrowserRouter>
   );

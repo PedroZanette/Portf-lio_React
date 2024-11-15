@@ -35,22 +35,28 @@ const TesteDeSistemas = () => {
                             <h2>3° Trimestre</h2>
                             <div className="activity">
                                 <p>
-                                    <a href="URL_da_atividade_3">Título da Atividade - Descrição da Data ou Tema</a>
+                                    <a href="https://www.canva.com/design/DAGWgJyvym8/y47wFLEk8DOeraMsMynF2A/view?embed">
+                                        Título da Atividade - Descrição da Data ou Tema
+                                        </a>
                                 </p>
                                 <iframe
                                     loading="lazy"
-                                    src="URL_do_embbed_ou_iframe_da_atividade"
+                                    src="https://www.canva.com/design/DAGWgJyvym8/y47wFLEk8DOeraMsMynF2A/view?embed"
                                     allowFullScreen
                                 ></iframe>
                                 <p className="activityDetails">
-                                    Competência: Descreva a competência
+                                    Competência: Não informado.
                                     <br />
                                     Habilidade: Habilidade específica da atividade
                                 </p>
                                 <p className="activityDescription">
-                                    Objetivo: Descreva o objetivo da atividade.
+                                    Objetivo: Fazer uma aprentação resumindo o que foi visto ao longo do terceiro trimestre.
                                     <br />
-                                    Opinião: Compartilhe sua opinião ou experiência com a atividade.
+                                    Opinião: Teste de Sistemas foi uma matéria nova e com pouco tempo de duração, mas 
+                                    já pude entender sua importância e gostei de como posso utilizá-la para resolver 
+                                    problemas que poderiam me atrapalhar no futuro como programador. A atividade 
+                                    em si foi interessante de realizar, pois precisei revisar mais uma vez os 
+                                    tipos de testes e como utilizá-los da melhor forma.
                                 </p>
                             </div>
                         
